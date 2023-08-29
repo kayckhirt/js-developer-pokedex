@@ -2,6 +2,13 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 body {
     background-color: #f6f8fc;
@@ -13,6 +20,7 @@ body {
     padding: 1rem;
     background-color: #fff;
 }
+
 
 @media screen and (min-width: 992px) {
     .content {
